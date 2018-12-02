@@ -1,0 +1,48 @@
+/* This is the CSS file for MarketplaceArtifact
+
+*/
+
+body {
+  font-family: Calibri;
+}
+
+.dashboard {
+  border-style: solid;
+  padding: 10px;
+  display: block;
+
+
+}
+
+.sub-dashboard {
+  vertical-align: middle;
+  display: block;
+  padding: 10px;
+
+}
+
+.list-releases-field {
+  vertical-align: middle;
+  display: block;
+  padding: 3px;
+}
+
+.list-item-fields {
+  display: block;
+  vertical-align: middle;
+  margin-top: 10px;
+
+}
+
+.release-box {
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  vertical-align: middle;
+}
+
+.item-box-details {
+  display: block;
+  vertical-align: middle;
+  padding-left: 20px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Music Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+
+    <h1 align="center">Music Store</h1>
+
+    <div id = "user-dashboard" class="dashboard">
+
+      <span><h3>User Dashboard</h3></span>
+
+      <div id="wallet_display">
+        <span>Current wallet: </span>
+        <span id ="account">
+      </div>
+
+      <div id="eth_balance_display">
+        <span>Current ETH balance: </span>
+        <span id = "account_balance">
+      </div>
+
+      <div id = "release-id-display">
+        <span>Number of releases listed: </span>
+        <span id = "release-id"></span>
+      </div>
+
+      <div id = "track-id-display">
+        <span>Number of tracks listed: </span>
+        <span id = "track-id"></span>
+      </div>
+    </div>
+
+    <div id = "contract-owner-dashboard" class = "dashboard" style = "display:none">
+
+      <!-- to be populated by app.js -->
+
+    </div>
+
+    <div id = "releaser-dashboard" class = "dashboard" style= "display:block">
+
+      <h3>Releaser Dashboard</h3>
+
+      <div id = "releases-listed-dashboard" class = "sub-dashboard" style = "display:block">
+
+      </div>
+
+      <div id = "tracks-listed-dashboard" class = "sub-dashboard" style="display:block">
+
+      </div>
+
+      <div id = "list-releases-dashboard" class = "sub-dashboard" style = "display:block">
+
+        <div class="list-releases-field">Enter artist name
+          <input type = "text" size=25 id = "list-release-artist-name"></input>
+        </div>
+
+        <div class="list-releases-field">Enter release name
+          <input type = "text" size=25 id = "list-release-release-name"></input>
+        </div>
+
+        <div class="list-releases-field">Enter tracks names
+          <input type = "text" size=50 id = "list-release-tracks-names" name="tracknames[tracks]"></input>
+        </div>
+
+        <div class = "list-releases-field">Enter release price
+          <input type = "text" size=25 id = "list-release-release-price"></input>
+        </div>
+
+        <div class = "list-releases-field">Enter track price
+          <input type = "text" size=25 id = "list-release-track-price"></input>
+        </div>
+
+        <button id="btn-list-release">List Release</button>
+
+      </div>
+
+      <!-- to be populated by app.js -->
+
+    </div>
+
+
+    <div id = "shopper-dashboard" class="dashboard">
+
+
+
+      <div id ="master-box" class = "shops">
+
+        <!-- to be populated by app.js -->
+
+      </div>
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src = "js/web3.min.js"></script>
+    <script src = "js/truffle-contract.js"></script>
+    <script src = "js/app.js"></script>
+
+  </body>
+
+</html>
